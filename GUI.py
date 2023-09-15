@@ -16,7 +16,7 @@ txt2.place(x=100,y=100,height=20,width=300)
 in_txt= Text(frame,font=(" Time New Roman", 40,"Bold"), wrap =WORD)
 in_txt.place(x=10,y=130,height=150,width=480)
 
-list = (LANGUAGES)
+list = list.(LANGUAGES.value())
 
 box1= ttk.Combobox(frame, value=list)
 box1.place(x=10,y=300,height=40,width=150)
